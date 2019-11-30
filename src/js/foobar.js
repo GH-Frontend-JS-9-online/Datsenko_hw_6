@@ -1,4 +1,4 @@
-export default function foobar(...arg) {
+const foobar = (...arg) => {
     for (let i = 0; i < arg.length; i++) {
         if (arg[i] % 3 === 0 && arg[i] % 7 === 0) {
             arg[i] = 'foobar'
@@ -10,3 +10,4 @@ export default function foobar(...arg) {
     }  
     return arg.join(' ')
 }
+export default foobar
