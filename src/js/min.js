@@ -1,3 +1,2 @@
-export default function max(array) {
-    return Math.min(...array)
-}
+const min = array => Math.min(...array)
+export default min

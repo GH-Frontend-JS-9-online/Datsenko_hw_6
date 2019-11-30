@@ -1,7 +1,2 @@
-export default function sum(array) {
-    let sum = 0
-    array.forEach(num => {
-        sum += num
-    })
-    return sum
-}
+const sum = array => array.reduce((accumulator, currentValue) => accumulator + currentValue)
+export default sum
